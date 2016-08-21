@@ -9,7 +9,7 @@ import qualified Ch9WB
 import qualified Chapter11
 import qualified Ch12WS
 import qualified Ch17WB
-import qualified Ch18
+import qualified Ch19
 
 -- myAbs :: Integer -> Integer
 -- myAbs x
@@ -28,4 +28,4 @@ import qualified Ch18
 --   | x > 0 = 1
 
 
-main = Ch18.main
+main = Ch19.main
