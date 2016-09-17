@@ -1,15 +1,16 @@
 module Main where
 
-import Chapter7
-import qualified Chapter8
-import qualified Worksheet
-import qualified LensesWorksheet
-import qualified Chapter9
-import qualified Ch9WB
-import qualified Chapter11
-import qualified Ch12WS
-import qualified Ch17WB
-import qualified Ch19
+-- import Chapter7
+-- import qualified Chapter8
+-- import qualified Worksheet
+-- import qualified LensesWorksheet
+-- import qualified Chapter9
+-- import qualified Ch9WB
+-- import qualified Chapter11
+-- import qualified Ch12WS
+-- import qualified Ch17WB
+-- import qualified Ch19
+import qualified Ch21
 
 -- myAbs :: Integer -> Integer
 -- myAbs x
@@ -28,4 +29,4 @@ import qualified Ch19
 --   | x > 0 = 1
 
 
-main = Ch19.main
+main = Ch21.main

@@ -19,13 +19,13 @@ instance Foldable Optional where
   foldMap f (Some x) = f x
 
 mySum :: (Foldable t, Num a) => t a -> a
-mySum = getSum <$> foldMap Sum
+mySum = getSum . foldMap Sum
 
 myProduct :: (Foldable t, Num a) => t a -> a
-myProduct = getProduct <$> foldMap Product
+myProduct = getProduct . foldMap Product
 
 myElem :: (Foldable t, Eq a) => a -> t a -> Bool
-myElem e = getAny <$> foldMap (\x -> Any (x == e))
+myElem e = getAny . foldMap (Any . (e ==))
 
 myMinimum :: (Foldable t, Ord a) => t a -> Maybe a
 myMinimum = foldr f Nothing
