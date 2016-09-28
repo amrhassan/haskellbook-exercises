@@ -10,7 +10,7 @@ module Main where
 -- import qualified Ch12WS
 -- import qualified Ch17WB
 -- import qualified Ch19
-import qualified Ch21
+import qualified Ch23
 
 -- myAbs :: Integer -> Integer
 -- myAbs x
@@ -29,4 +29,4 @@ import qualified Ch21
 --   | x > 0 = 1
 
 
-main = Ch21.main
+main = Ch23.main
